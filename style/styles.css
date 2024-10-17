@@ -1,0 +1,42 @@
+h1 {
+    position: relative;
+    color: #ff5235;
+
+}
+
+h1::after {
+    content: 'This supposed to be as "after"';
+}
+
+h1::before {
+    content: 'This supposed to be as "before"';
+}
+
+h1::first-letter {
+    color: #111f61;
+}
+
+p::first-line {
+    color: aqua;
+}
+
+#title {
+    font-size: 50px;
+}
+
+.page-title {
+    font-size: 20px;
+}
+
+.page-title,
+#title {
+    border: 1px solid lightsalmon;
+}
+
+.btn {
+    background-color: transparent;
+}
+
+.btn--red {
+    background-color: red;
+}
